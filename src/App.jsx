@@ -18,7 +18,7 @@ const App = () => {
     }
   };
   return (
-    <div className="w-full overflow-hidden">
+    <div className="w-full overflow-hidden max-w-full flex flex-col items-center">
       <Navbar toggle={toggle} setToggle={setToggle} selectedList={selectedList} setSelectedList={setSelectedList} adultsCount={adultsCount} setAdultsCount={setAdultsCount} childrenCount={childrenCount} setChildrenCount={setChildrenCount} totalGuests={totalGuests} handleSearch={handleSearch} />
       <Hero toggle={toggle} selectedList={selectedList} setSelectedList={setSelectedList} totalGuests={totalGuests} filteredHero={filteredHero} />
     </div>

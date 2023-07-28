@@ -4,7 +4,7 @@ import { faStar } from "@fortawesome/free-solid-svg-icons"
 
 const Hero = ({ toggle, filteredHero }) => {
     return (
-        <section className={`w-full h-full flex flex-col items-center justify-center ${toggle ? "bg-[rgba(0,0,0,0.5)]" : ""}`}>
+        <section className={`w-full max-w-[1400px] h-full flex flex-col items-center justify-center ${toggle ? "bg-[rgba(0,0,0,0.5)]" : ""}`}>
             <div className='sm:w-[85%] w-[95%] flex justify-between items-center my-4'>
                 <h2 className='font-bold font-poppins text-lg'>Stays in Finland</h2>
                 <p className="font-poppins">{filteredHero.length === 1 ? "1 stay" : filteredHero.length > 9 ? `9+ stays` : `${filteredHero.length} stays`}</p>

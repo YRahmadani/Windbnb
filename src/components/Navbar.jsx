@@ -11,7 +11,7 @@ const Navbar = ({ toggle, setToggle, selectedList, setSelectedList, adultsCount,
     const [gu, setGu] = useState(false)
 
     return (
-        <div className="w-full flex justify-center">
+        <div className="w-full flex justify-center max-w-[1400px]">
             <div className={`w-full bg-white shadow-md absolute duration-300 origin-top ${toggle ? "sm:h-[350px] h-[600px]" : "h-0"}`}>
                 {/* Dropdown menu */}
                 <div className="w-[73%] h-48 absolute sm:left-[7.5%] left-[5%] sm:bottom-10 bottom-[55%] sm:translate-y-0 translate-y-1/2">
