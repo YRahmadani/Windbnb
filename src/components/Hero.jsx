@@ -4,13 +4,13 @@ import { faStar } from "@fortawesome/free-solid-svg-icons"
 
 const Hero = ({ toggle, filteredHero }) => {
     return (
-        <section className={`w-full max-w-[1400px] h-full flex flex-col items-center justify-center ${toggle ? "bg-[rgba(0,0,0,0.5)]" : ""}`}>
-            <div className='sm:w-[85%] w-[95%] flex justify-between items-center my-4'>
+        <section className={`w-full h-full flex flex-col items-center justify-center ${toggle ? "bg-[rgba(0,0,0,0.5)]" : ""}`}>
+            <div className='xs:w-[85%] w-[90%] flex justify-between items-center my-4'>
                 <h2 className='font-bold font-poppins text-lg'>Stays in Finland</h2>
                 <p className="font-poppins">{filteredHero.length === 1 ? "1 stay" : filteredHero.length > 9 ? `9+ stays` : `${filteredHero.length} stays`}</p>
             </div>
             
-            <div className='sm:w-[85%] w-[95%] flex -z-[1] md:gap-0 gap-3 md:justify-between justify-center flex-wrap'>
+            <div className='sm:w-[85%] w-[95%] xl:max-w-[60%] flex -z-[1] md:gap-0 gap-3 md:justify-between justify-center flex-wrap'>
                 {/* hanya indeks 0-8 yang diambil sebagai tampilan pertama */}
                 {filteredHero.slice(0,9).map((her) => (
                     <div key={her.id} className="mb-8">

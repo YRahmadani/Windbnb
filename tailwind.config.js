@@ -17,7 +17,8 @@ export default {
       md: "950px",
       xmd: "1024px",
       lg: "1280px",
-      xl: "1535px",
+      xl: "1600px",
+      xxl: "2560px"
     },
   },
   plugins: [],
