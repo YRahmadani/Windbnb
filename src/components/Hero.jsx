@@ -14,7 +14,7 @@ const Hero = ({ toggle, filteredHero }) => {
                 {/* hanya indeks 0-8 yang diambil sebagai tampilan pertama */}
                 {filteredHero.slice(0,9).map((her) => (
                     <div key={her.id} className="mb-8">
-                        <img src={her.img} alt={her.title} width={380} className="rounded-3xl"/>
+                        <img src={her.img} alt={her.title} width={415} className="rounded-3xl"/>
                         <div className="mt-4">
                             {/* Superhost sd. rating */}
                             <div className="flex flex-wrap justify-between items-center">
