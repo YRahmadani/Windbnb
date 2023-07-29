@@ -31,7 +31,7 @@ const Hero = ({ toggle, filteredHero }) => {
                     </div>
                 ))}
             </div>
-            <span className="font-poppins -z-[1] mx-auto text-sm mt-10 mb-5 text-[#909090]">created by <span className="font-bold font-poppins text-[#909090]">YRahmadani</span> - devChallenges.io</span>
+            <span className="font-poppins -z-[1] mx-auto text-sm mt-10 mb-5 text-[#909090]">created by <span className="font-bold font-poppins text-[#909090]">Geevanya</span> - devChallenges.io</span>
         </section>
     )
 }
